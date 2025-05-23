@@ -9,6 +9,8 @@ mixed = true
 outOfOrder = true
 schemaModelLocation = "schema-model"
 validateMigrationNaming = true
+baselineVersion = "000"
+baselineOnMigrate = true
 
   [flyway.check]
   majorTolerance = 0
@@ -19,7 +21,7 @@ mode = "all"
 [flywayDesktop]
 developmentEnvironment = "development"
 shadowEnvironment = "shadow"
-enableMigrations = false
+enableMigrations = true
 
 [redgateCompare]
 filterFile = "filter.rgf"
@@ -119,3 +121,6 @@ ignoreWithNoCheck = true
 
 [environments.pruebadb]
 url = "jdbc:sqlserver://PRISCILLAROMERO;databaseName=pruebadb;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
+
+[environments.target2]
+url = "jdbc:sqlserver://localhost;databaseName=pruebadb;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
