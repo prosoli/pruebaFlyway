@@ -119,8 +119,5 @@ ignoreWithElementOrder = true
 ignoreWithEncryption = false
 ignoreWithNoCheck = true
 
-[environments.pruebadb]
-url = "jdbc:sqlserver://PRISCILLAROMERO;databaseName=pruebadb;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
-
 [environments.target2]
 url = "jdbc:sqlserver://localhost;databaseName=pruebadb;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
