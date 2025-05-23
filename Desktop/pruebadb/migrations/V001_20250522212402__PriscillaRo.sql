@@ -1,0 +1,5 @@
+CREATE TABLE Users (
+  idUser INT IDENTITY(1,1) PRIMARY KEY,
+  name NVARCHAR(100) NULL,
+  lastname NVARCHAR(100) NULL
+);
