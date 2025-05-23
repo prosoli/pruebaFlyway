@@ -1,0 +1,5 @@
+CREATE TABLE Ciudades (
+  Id INT PRIMARY KEY,
+  name NVARCHAR(100),
+  apodo NVARCHAR(100)
+);
